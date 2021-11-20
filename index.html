@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>余额数字滚动效果</title>
+    <style>
+      .wrapper{
+        display: flex;
+      }
+      #digit-scroll{
+        display: flex;
+        justify-content: center;
+        width: 60px;
+        color: #f50;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">当前余额为<div id="digit-scroll"></div>元</div>
+    <script type="text/javascript" src="./digitScroll.js">
+    </script>
+    <script>
+      const digitInstance = new DigitScroll({container:"#digit-scroll"});
+      digitInstance.roll(8.8);
+      setTimeout(() => {
+        digitInstance.roll(78.48);
+      }, 5000);
+    </script>
+  </body>
+</html>
