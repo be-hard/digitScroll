@@ -28,7 +28,8 @@
 装数字的容器是用 flex 布局的，如果要兼容比较低的浏览器版本的话，可以修改一下，把容器的 flex 布局去掉，每个数字的容器用 float:left 即可
 即注释
 
-```this.container.style.display = "flex";
+```
+      this.container.style.display = "flex";
 
 ```
 
