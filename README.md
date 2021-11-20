@@ -38,4 +38,3 @@
       // el.style.float='left';
 ```
 
-````
