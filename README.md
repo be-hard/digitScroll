@@ -1,6 +1,8 @@
 # digitScroll
 
 实现数字滚动的效果（领取红包后余额变化的数字滚动效果）
+# 效果预览
+[效果预览页面](https://be-hard.github.io/digitScroll/)
 
 # 使用方法
 
